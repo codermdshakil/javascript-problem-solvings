@@ -14,6 +14,9 @@
  * 
 */
 
+// 0 
+const problem_solving_starting_date = '02/05/2025';
+
 // 1
 const dateOfBirth = '04/12/2005';
 

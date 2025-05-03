@@ -40,6 +40,8 @@ const watchPodCast = "TRS"; // TRS
 // 6 
 const hobby = "Listening Podcast | Listening Music"; // Listening Podcast | Listening Music
 
+// 7
+const color = "SkyBlue"; // SkyBlue
 
 
 

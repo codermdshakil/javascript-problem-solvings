@@ -36,6 +36,12 @@ const borrow = 5700;
 const goals = 7;
 // console.log(goals);
 
+// 7
+
+const pillow = 3;
+// console.log(pillow); // 3 
+
+
 
 
 

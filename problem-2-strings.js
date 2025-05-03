@@ -26,6 +26,9 @@ const name = "Md. Shakil Ahmed"; // Md. Shakil Ahmed
 // 2
 const address = "Ranigonj Bazar, Kapasia, Gazipur"; // Ranigonj Bazar, Kapasia, Gazipur
 
+// 3
+const developerLook = "Noyon Rahman"; // Noyon Rahman
+
 
 
 

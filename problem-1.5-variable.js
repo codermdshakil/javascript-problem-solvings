@@ -18,6 +18,11 @@ const age = 21; // 21
 // 2
 const booksToRead = 6; // 6
 
+// 3
+let wakeUpTime = '10:00 AM';
+wakeUpTime = '6:00 AM'; // 
+// console.log(wakeUpTime); // 6:00 AM
+
 
 
 

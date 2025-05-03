@@ -20,6 +20,8 @@
  * */ 
 
 
+//  Solutions: 
+
 // 1
 const name = "Md. Shakil Ahmed"; // Md. Shakil Ahmed
 

@@ -15,6 +15,9 @@
 // 1
 const age = 21; // 21
 
+// 2
+const booksToRead = 6; // 6
+
 
 
 

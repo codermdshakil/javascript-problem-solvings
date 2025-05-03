@@ -31,6 +31,11 @@ const wastedTime = '2h 35min';
 const borrow = 5700;
 // console.log(borrow); // 5700
 
+// 6
+
+const goals = 7;
+// console.log(goals);
+
 
 
 

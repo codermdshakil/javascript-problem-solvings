@@ -37,6 +37,9 @@ const fan = "Katrina Kaif"; // Katrina Kaif
 const movieOfTheYear = "I dont't have time to watch movie this year!";
 const watchPodCast = "TRS"; // TRS
 
+// 6 
+const hobby = "Listening Podcast | Listening Music"; // Listening Podcast | Listening Music
+
 
 
 

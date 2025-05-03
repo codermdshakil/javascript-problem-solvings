@@ -29,6 +29,9 @@ const address = "Ranigonj Bazar, Kapasia, Gazipur"; // Ranigonj Bazar, Kapasia, 
 // 3
 const developerLook = "Noyon Rahman"; // Noyon Rahman
 
+// 4
+const fan = "Katrina Kaif"; // Katrina Kaif
+
 
 
 

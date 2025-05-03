@@ -23,6 +23,13 @@ let wakeUpTime = '10:00 AM';
 wakeUpTime = '6:00 AM'; // 
 // console.log(wakeUpTime); // 6:00 AM
 
+// 4 
+const wastedTime = '2h 35min';
+// console.log(wastedTime); // 2h 35min
+
+
+
+
 
 
 

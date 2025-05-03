@@ -27,8 +27,9 @@ wakeUpTime = '6:00 AM'; //
 const wastedTime = '2h 35min';
 // console.log(wastedTime); // 2h 35min
 
-
-
+// 5 
+const borrow = 5700;
+// console.log(borrow); // 5700
 
 
 

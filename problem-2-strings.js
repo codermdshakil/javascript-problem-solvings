@@ -32,6 +32,11 @@ const developerLook = "Noyon Rahman"; // Noyon Rahman
 // 4
 const fan = "Katrina Kaif"; // Katrina Kaif
 
+// 5
+
+const movieOfTheYear = "I dont't have time to watch movie this year!";
+const watchPodCast = "TRS"; // TRS
+
 
 
 

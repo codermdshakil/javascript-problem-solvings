@@ -23,6 +23,10 @@
 // 1
 const name = "Md. Shakil Ahmed"; // Md. Shakil Ahmed
 
+// 2
+const address = "Ranigonj Bazar, Kapasia, Gazipur"; // Ranigonj Bazar, Kapasia, Gazipur
+
+
 
 
 

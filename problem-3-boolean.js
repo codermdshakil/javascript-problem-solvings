@@ -44,6 +44,10 @@ const isHungry = true;
 const isStudyDone = true;
 const isPhoneCharged = true;
 
+// 6 
+const isDinnerDone = false;
+
+ 
 
 
 

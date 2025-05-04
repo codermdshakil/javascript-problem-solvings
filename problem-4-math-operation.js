@@ -74,7 +74,18 @@ const remain2 = 8%3; // ভাগশেষ
 // 8 
 const justRemainder = 50 % 9 ; // 5
 
+// 9 
+const riceEatPerDay = 4;
+const totalRiceKg = 480;
 
+
+const riceCanUse = totalKg /  riceEatPerDay; // 103.5
+
+const oneMonth = 30;
+
+// 16 month i can service with 480kg chal
+const remaningMonth = totalRiceKg / oneMonth; // 16
+ 
 
 
 

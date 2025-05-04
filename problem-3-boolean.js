@@ -30,6 +30,9 @@ const isHappyFriend  =false; // false
 // 2
 const isCrushMessage = false; // false
 
+// 3
+const celebrating = true; // true
+
 
 
 

@@ -41,3 +41,15 @@ const everyTimeUse = 2;
 
 const canUse = totalPencil / everyTimeUse; // 5
 
+// 3
+
+const hasMoney = 60;
+const everyTimeUseMoney = 15;
+const totalUse = hasMoney / everyTimeUseMoney; // 4
+
+
+
+
+
+
+ 

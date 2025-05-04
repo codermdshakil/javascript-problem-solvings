@@ -34,3 +34,10 @@ const income = 100;
 const cost = 40;
 const remain = income - cost; // 60
 
+// 2
+
+const totalPencil = 10;
+const everyTimeUse = 2;
+
+const canUse = totalPencil / everyTimeUse; // 5
+

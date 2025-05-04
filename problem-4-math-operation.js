@@ -47,6 +47,12 @@ const hasMoney = 60;
 const everyTimeUseMoney = 15;
 const totalUse = hasMoney / everyTimeUseMoney; // 4
 
+// 4
+
+const s1 = "Hello";
+const s2 = "Word";
+const s = s1 + s2; // HelloWord
+
 
 
 

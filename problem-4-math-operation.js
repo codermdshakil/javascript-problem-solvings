@@ -59,9 +59,10 @@ const dalKg = 261;
 const totalKg = riceKg + dalKg; // 414 
 
 
+// 6
+
+const totalMoney = 500;
+const everyTimeUseMoney2 = 75;
+const remainMoney = parseInt(totalMoney / everyTimeUseMoney2); // 6
 
 
-
-
-
- 

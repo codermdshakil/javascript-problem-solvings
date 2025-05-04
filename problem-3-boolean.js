@@ -33,7 +33,11 @@ const isCrushMessage = false; // false
 // 3
 const celebrating = true; // true
 
+// 4 
 
+const isHappy = true;
+const hasMoney = false;
+const isHungry = true;
 
 
 

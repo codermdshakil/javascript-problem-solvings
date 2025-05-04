@@ -27,6 +27,9 @@
 const isHappyFriend  =false; // false
 
 
+// 2
+const isCrushMessage = false; // false
+
 
 
 

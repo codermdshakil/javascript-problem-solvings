@@ -53,6 +53,12 @@ const s1 = "Hello";
 const s2 = "Word";
 const s = s1 + s2; // HelloWord
 
+// 5 
+const riceKg = 153;
+const dalKg = 261;
+const totalKg = riceKg + dalKg; // 414 
+
+
 
 
 

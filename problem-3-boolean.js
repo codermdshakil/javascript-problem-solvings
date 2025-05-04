@@ -39,6 +39,12 @@ const isHappy = true;
 const hasMoney = false;
 const isHungry = true;
 
+// 5
+
+const isStudyDone = true;
+const isPhoneCharged = true;
+
+
 
 
 

@@ -66,3 +66,14 @@ const everyTimeUseMoney2 = 75;
 const remainMoney = parseInt(totalMoney / everyTimeUseMoney2); // 6
 
 
+
+// 7
+const quotiend = Math.floor(8/3); // ভাগফল
+const remain2 = 8%3; // ভাগশেষ
+ 
+
+
+
+
+
+ 

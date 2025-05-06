@@ -44,5 +44,15 @@ studyTime = 3;
 // console.log(studyTime); // 3
 
 
+// 4 
+let friendsCount = 3;
+friendsCount = friendsCount - 2;
+// console.log(friendsCount);  // 1
+
+
+
+
+
+
 
 

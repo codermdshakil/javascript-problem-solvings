@@ -25,5 +25,11 @@
 // 1 
 const price = 555; // number
 
+// 2
+
+const learning = true; // boolean
+
+
+
 
 

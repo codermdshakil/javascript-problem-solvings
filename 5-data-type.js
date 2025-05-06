@@ -39,6 +39,8 @@ const temperature = 102.5; // number
 // 5
 const isHungry = false; // boolean
 
+// 6
+const isRich = false; // boolean
 
 
 

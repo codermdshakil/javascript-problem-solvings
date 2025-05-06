@@ -29,6 +29,8 @@ const price = 555; // number
 
 const learning = true; // boolean
 
+// 3
+const megaCity = "Dhaka"; // String
 
 
 

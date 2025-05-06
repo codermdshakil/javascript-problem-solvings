@@ -33,5 +33,10 @@ const learning = true; // boolean
 const megaCity = "Dhaka"; // String
 
 
+// 4
+const temperature = 102.5; // number 
+
+
+
 
 

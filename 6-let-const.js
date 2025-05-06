@@ -49,7 +49,12 @@ let friendsCount = 3;
 friendsCount = friendsCount - 2;
 // console.log(friendsCount);  // 1
 
+// 5
 
+let phonePrice = 25000;
+// console.log(phonePrice); // 25000
+phonePrice = 12000;
+// console.log(phonePrice); // 12000
 
 
 

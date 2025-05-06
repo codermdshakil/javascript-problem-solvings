@@ -66,3 +66,10 @@ chairsCount = chairsCount - 2;
 chairsCount = chairsCount - 6;
 
 // console.log(chairsCount);
+
+// 7
+
+let playTime = 2;
+playTime = 0;
+// console.log(playTime);
+

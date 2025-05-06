@@ -29,7 +29,10 @@ age = 20;
 // console.log(age); // 20
 
 
+// 2
 
-
-
+let pocketMoney = 500;
+// console.log(pocketMoney); // 500;
+pocketMoney = 150;
+// console.log(pocketMoney); // 150
 

@@ -36,3 +36,13 @@ let pocketMoney = 500;
 pocketMoney = 150;
 // console.log(pocketMoney); // 150
 
+
+// 3
+let studyTime = 4;
+// console.log(studyTime); // 4
+studyTime = 3; 
+// console.log(studyTime); // 3
+
+
+
+

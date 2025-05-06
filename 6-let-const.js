@@ -56,8 +56,13 @@ let phonePrice = 25000;
 phonePrice = 12000;
 // console.log(phonePrice); // 12000
 
+// 6
 
+let chairsCount = 40;
 
+// বেঙে গেছে ২ টি 
+chairsCount = chairsCount - 2;
+// নিয়ে গাসে ২ টি
+chairsCount = chairsCount - 6;
 
-
-
+// console.log(chairsCount);

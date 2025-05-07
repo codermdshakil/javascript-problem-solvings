@@ -67,6 +67,11 @@ const sendMoney = 1020;
 // Sent money cost  - 20
 
 
+//  7
+
+// Here is total price i should pay: books price and delivery fee included!
+const pay = 1100;
+
 
 
 

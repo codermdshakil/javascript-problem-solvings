@@ -46,3 +46,9 @@ const username = "Jovan"; // Jovan
 
 const homeAddress = "Gazipur, Dhaka, Bangladesh";
 
+
+// 5
+
+// const super = 500; // error because we can't use JavaScript Reserved keyword
+// console.log(super);
+

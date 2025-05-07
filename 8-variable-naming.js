@@ -42,4 +42,7 @@ const username = "Jovan"; // Jovan
 // console.log(username);
 
 
+// 4
+
+const homeAddress = "Gazipur, Dhaka, Bangladesh";
 

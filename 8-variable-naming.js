@@ -58,3 +58,10 @@ const homeAddress = "Gazipur, Dhaka, Bangladesh";
 // const class = 12; // error because we can't use JavaScript Reserved keyword
 // console.log(class);
 
+// 7
+// const 2ndPosition = "Nadim"; // Error we can't use first numeric value to declare a variable
+
+// here is the solution
+const position2nd = "Nadim";
+// console.log(position2nd); // Nadim
+

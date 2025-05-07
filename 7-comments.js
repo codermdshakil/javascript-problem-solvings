@@ -45,6 +45,8 @@ const dress = 3;
  * 
 */
 
+// 4
+const giftMoney = 100; // this is gifted money
 
 
 

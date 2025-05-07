@@ -48,6 +48,19 @@ const dress = 3;
 // 4
 const giftMoney = 100; // this is gifted money
 
+// 5
+
+const studyTime = 7;
+
+/**
+ * Tuition : 3h
+ * Next Level Developer : 3h
+ * Problem Solving : 1h
+ * 
+ */
+
+
+
 
 
 

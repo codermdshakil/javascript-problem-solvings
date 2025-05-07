@@ -26,3 +26,10 @@
 const favouriteFruit = "Mango";
 
 
+// 2
+
+const city = "Dhaka";
+const City = "CTG";
+// console.log(city); // Dhaka 
+// console.log(City); // CTG
+ 

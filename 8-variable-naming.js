@@ -33,3 +33,13 @@ const City = "CTG";
 // console.log(city); // Dhaka 
 // console.log(City); // CTG
  
+
+// 3
+
+const userName = "Johan"; // Johan
+const username = "Jovan"; // Jovan
+// console.log(userName);
+// console.log(username);
+
+
+

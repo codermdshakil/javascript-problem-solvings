@@ -52,3 +52,9 @@ const homeAddress = "Gazipur, Dhaka, Bangladesh";
 // const super = 500; // error because we can't use JavaScript Reserved keyword
 // console.log(super);
 
+
+// 6
+
+// const class = 12; // error because we can't use JavaScript Reserved keyword
+// console.log(class);
+

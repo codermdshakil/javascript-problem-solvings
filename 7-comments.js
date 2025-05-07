@@ -59,6 +59,12 @@ const studyTime = 7;
  * 
  */
 
+// 6 
+
+const sendMoney = 1020;
+
+// Kalam get        - 1000
+// Sent money cost  - 20
 
 
 

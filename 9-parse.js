@@ -40,3 +40,19 @@ const num4 = 2.789;
 const res3 = num3 + num3;
 // console.log(res3.toFixed(2)); // 6.91 - using toFixed(2)
 
+
+// 5
+
+const num5 = '56.78';
+const num6 = '12.34';
+
+const res4 = parseFloat(num5) + parseFloat(num6);
+// console.log(res4); // 69.12 
+
+
+
+
+
+
+
+

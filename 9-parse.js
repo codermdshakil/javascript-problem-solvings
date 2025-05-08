@@ -32,11 +32,11 @@ const num2 = '3.14159';
 const res2 = 'premikBoy';
 // console.log(parseInt(res2)); // NaN 
 
+// 4
 
+const num3 = 3.456;
+const num4 = 2.789;
 
-
-
-
-
-
+const res3 = num3 + num3;
+// console.log(res3.toFixed(2)); // 6.91 - using toFixed(2)
 

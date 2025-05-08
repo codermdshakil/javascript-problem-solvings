@@ -24,6 +24,10 @@
 const num1 = '20';
 const res1 = parseInt(num1) + 10; // 20
 
+// 2
+const num2 = '3.14159';
+// console.log(parseInt(num2)); // 3 
+
 
 
 

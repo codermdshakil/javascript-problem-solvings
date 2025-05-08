@@ -28,6 +28,9 @@ const res1 = parseInt(num1) + 10; // 20
 const num2 = '3.14159';
 // console.log(parseInt(num2)); // 3 
 
+// 3
+const res2 = 'premikBoy';
+// console.log(parseInt(res2)); // NaN 
 
 
 

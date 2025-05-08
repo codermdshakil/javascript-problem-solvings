@@ -50,6 +50,16 @@ const res4 = parseFloat(num5) + parseFloat(num6);
 // console.log(res4); // 69.12 
 
 
+// 6
+ 
+const num7 = '10.5678';
+const num8 = '5.4321';
+
+const res5 = parseFloat(num7) + parseFloat(num8);
+// console.log(res5.toFixed(1)); // 16.0
+
+
+
 
 
 

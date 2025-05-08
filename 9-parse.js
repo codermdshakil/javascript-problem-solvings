@@ -58,6 +58,11 @@ const num8 = '5.4321';
 const res5 = parseFloat(num7) + parseFloat(num8);
 // console.log(res5.toFixed(1)); // 16.0
 
+// 7
+
+const num9 = '42.45689754';
+// console.log(parseFloat(num9).toFixed(3)); // 42.457
+
 
 
 

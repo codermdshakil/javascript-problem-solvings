@@ -61,7 +61,15 @@ const myFriendNumber = 85;
 //     console.log('Not same');
 // };
 
+// 4
+const targetAmount = 100;
+const inMyHand = 95;
 
+// if(targetAmount >= inMyHand){
+//     console.log('Target fullfilled!');
+// }else{
+//     console.log('Save more money!');
+// }
 
 
 

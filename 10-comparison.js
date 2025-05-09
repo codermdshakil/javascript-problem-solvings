@@ -42,12 +42,26 @@ const chotoBhai = 7;
 const firstClass = 45;
 const secondClass = 50;
 
-if(firstClass > secondClass){
-    console.log('First class is greater!');
-}
-else{
-    console.log('Second class is greater!');
-};
+// if(firstClass > secondClass){
+//     console.log('First class is greater!');
+// }
+// else{
+//     console.log('Second class is greater!');
+// };
+
+
+// 3 
+const myNumber = 85;
+const myFriendNumber = 85;
+
+// if(myNumber === myFriendNumber){
+//     console.log('Both number is Same!');
+// }
+// else{
+//     console.log('Not same');
+// };
+
+
 
 
 

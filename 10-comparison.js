@@ -39,6 +39,17 @@ const chotoBhai = 7;
 
 // 2
 
+const firstClass = 45;
+const secondClass = 50;
+
+if(firstClass > secondClass){
+    console.log('First class is greater!');
+}
+else{
+    console.log('Second class is greater!');
+};
+
+
 
 
 

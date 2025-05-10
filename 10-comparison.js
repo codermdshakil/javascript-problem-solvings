@@ -87,26 +87,28 @@ const num2 = 7;
 
 // 6. 20 কি 15-এর চাইতে কম বা সমান কি না, সেটা চেক কর। 
 
-
-
 // if(20>15){
 //     console.log('20 is greater');
 // }
 // else{
 //     console.log('20 is smaller then 15');
 // }
-
 // 7. তুই আর তোর বন্ধু একই সাথে পরীক্ষা দিছস। পরীক্ষার দেয়ার পর তোর বন্ধু কেঁদে কেঁদে বুক ভাসিয়ে ফেলছে। তার পরীক্ষা জঘন্য হইছে, সে ফেল করবে। এক মাস
 //  * পরে রেজাল্টে দেখা গেছে, তুই পাইছস 45 নম্বর আর বন্ধু পাইছে 97 নম্বর। এইবার চেক করে দেখ, তোর বন্ধু কি তোর চাইতে কম নম্বর পাইছে কি না। 
+
 
 
 const myNumber1 = 45;
 const myFriendNumber1 = 95;
 
 if(myFriendNumber < myFriendNumber){
+    
     console.log('amr theke kom number paise amr friend.');
 }
 else{
     console.log('amr theke beshi number paise amr friend.');
 }
+
+
+
 

@@ -91,12 +91,25 @@ const myResult = 45;
 
 //  6. একটা ফুটবল ম্যাচে রিয়াল মাদ্রিদ 2টা গোল করছে, আর বার্সা 3টা গোল করছে। চেক কর, রিয়াল মাদ্রিদ কি বার্সার চেয়ে কম গোল করেছে কি না। 
 
-const realMadridGoal = 2;
-const bersaGoal = 3;
+// const realMadridGoal = 2;
+// const bersaGoal = 3;
 
-if(realMadridGoal < bersaGoal){
-    console.log('RealMardrid Goal is Less then Bersa');
-}else{
+// if(realMadridGoal < bersaGoal){
+//     console.log('RealMardrid Goal is Less then Bersa');
+// }else{
     
-    console.log('RealMardrid Goal is more then then Bersa');
-}
+//     console.log('RealMardrid Goal is more then then Bersa');
+// }
+
+//  7. তোর নাম "Rahim", আর তোর বন্ধুর নাম "Karim"। চেক কর, তোর নাম কি তোর বন্ধুর নামের সমান কি না। 
+
+// const myName = 'Rahim';
+// const myFriendName = 'Karim';
+
+// if(myName === myFriendName){
+//     console.log('Yes');
+// }
+// else{
+//     console.log('No');
+// }
+

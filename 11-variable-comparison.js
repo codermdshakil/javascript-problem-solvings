@@ -25,17 +25,28 @@
 
 // 1. তোর ছোট ভাইয়ের বয়স 10 বছর, আর তোর বয়স 15 বছর। একটা প্রোগ্রাম লিখে দেখ, তোর ছোট ভাইয়ের বয়স কি তোর বয়স থেকে কম বা সমান কি না।
 
-const littleBrotherAge =   10;
-const myAge = 15;
+// const littleBrotherAge =   10;
+// const myAge = 15;
 
-if(littleBrotherAge <= myAge){
+// if(littleBrotherAge <= myAge){
 
-    if(littleBrotherAge == myAge){
-        console.log('My Little brother age is Equal to me! ');
-    }else{
-         console.log('Yes! My Little is small then me!');
-    }
-}
-else{
-    console.log('No');
-}
+//     if(littleBrotherAge == myAge){
+//         console.log('My Little brother age is Equal to me! ');
+//     }else{
+//          console.log('Yes! My Little is small then me!');
+//     }
+// }
+// else{
+//     console.log('No');
+// }
+
+
+// 2. একটা পরীক্ষায় পাস মার্কস 33। ধর, তুই 45 পেয়েছিস। চেক কর, তুই পাস করেছিস কি না।
+
+const myResult = 45;
+
+// if(myResult > 33){
+//     console.log('You are Passed!');
+// }else{
+//     console.log('You are Fail!');
+// }

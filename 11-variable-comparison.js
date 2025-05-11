@@ -113,3 +113,16 @@ const myResult = 45;
 //     console.log('No');
 // }
 
+
+
+// 8. তুই আজকে পড়াশোনা করেছিস (true), আর তোর বন্ধু পড়াশোনা করেনি (false)। চেক কর, তোরা কি একই রকম কাজ করেছিস কি না। 
+
+const todayStudy = false;
+const frindStudy = true;
+
+if(todayStudy === frindStudy){
+    console.log('Yes');
+}
+else{
+    console.log('No');
+}

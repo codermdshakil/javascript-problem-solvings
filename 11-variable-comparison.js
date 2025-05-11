@@ -78,12 +78,12 @@ const myResult = 45;
 
 // 5. তোর কাছে 15টা বিস্কুট আর তোর বন্ধুর কাছে 20টা। চেক কর, তুই কি তোর বন্ধুর থেকে কম বিস্কুট পেয়েছিস কি না। 
 
-const iHaveBisket = 15;
-const friendBisket = 20;
+// const iHaveBisket = 15;
+// const friendBisket = 20;
 
-if(iHaveBisket < friendBisket){
-    console.log('Kom paise Ami');
-}
-else{
-    console.log('Beshi Paise Ami');
-}
+// if(iHaveBisket < friendBisket){
+//     console.log('Kom paise Ami');
+// }
+// else{
+//     console.log('Beshi Paise Ami');
+// }

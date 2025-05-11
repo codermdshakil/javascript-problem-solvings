@@ -50,3 +50,16 @@ const myResult = 45;
 // }else{
 //     console.log('You are Fail!');
 // }
+
+
+// 3. দুইটা ভেরিয়েবলে জাম্বুরা আর কদবেলের দাম রাখা হলো। জাম্বুরা কি কদবেলের চেয়ে সস্তা কি না, সেটার তুলনা কর। 
+
+// const jamburaPrice = 120;
+// const kodbelPrice = 140;
+
+// if(jamburaPrice < kodbelPrice){
+//     console.log('Afotable!');
+// }else{
+    
+//     console.log('Expensive');
+// }

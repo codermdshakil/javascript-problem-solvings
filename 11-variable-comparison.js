@@ -63,3 +63,16 @@ const myResult = 45;
     
 //     console.log('Expensive');
 // }
+
+// 4. তুই 10টা বই পড়েছিস, আর তোর বন্ধু পড়ছে 10টা। চেক কর, তোরা কি সমান সংখ্যক বই পড়েছিস কি না। 
+
+const myBookReading = 10;
+const friendBookReading = 10;
+if(myBookReading === friendBookReading){
+    console.log('Yes, Equal!');
+}
+else{
+    console.log('Not Equal!');
+}
+
+

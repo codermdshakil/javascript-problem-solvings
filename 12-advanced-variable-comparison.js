@@ -86,22 +86,38 @@ const noteBook = "JavaScript";
 
 // 5. একটা প্রোগ্রাম লিখে দেখ, "test" এবং "TEST"-এর মধ্যে "test" == "TEST" এবং "test" === "TEST"-এর আউটপুট কী হবে। 
 
-if("test" == "TEST"){
-    console.log("true");
-}
-else{
-    console.log("false");
-}
+// if("test" == "TEST"){
+//     console.log("true");
+// }
+// else{
+//     console.log("false");
+// }
 
 
-if("test" === "TEST"){
-    console.log("true");
-}
-else{
-    console.log("false");
-}
+// if("test" === "TEST"){
+//     console.log("true");
+// }
+// else{
+//     console.log("false");
+// }
 
-// 
+// output: 
 // false
 // false
+
+
+
+//  * 6. variableX-এর মান 15 আর variableY-এর মান "20" দিলে variableX != variableY এবং variableX !== variableY-এর আউটপুট কী হবে।
+
+
+const variableX = 15;
+const variableY = "20";
+
+if(variableX != variableY){
+    console.log("Not same Kotha sotti");
+}
+
+if(variableX !== variableY){
+    console.log('Not same value + type Kotha sotti');
+}
 

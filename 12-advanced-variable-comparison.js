@@ -55,15 +55,30 @@ const noteBook = "JavaScript";
 
 // 3. একটা প্রোগ্রাম লিখে দেখ, 25 এবং "25"-এর মধ্যে 25 == "25" এবং 25 === "25" দিলে কী আউটপুট আসবে এবং কেন সেটা হয়, সেটা কমেন্ট করে লিখ।  
 
-if(25 == "25"){
-    console.log('Same value but not type');
-}
+// if(25 == "25"){
+//     console.log('Same value but not type');
+// }
 
-if(25 === "25"){    
-    console.log('Same value same type');
-}
+// if(25 === "25"){    
+//     console.log('Same value same type');
+// }
 
 // == শুধু value check করে type check করে না এর জন্য  যদি value ২ টা মিলে type না মিললেও True দেখায় ।
 // === value + type ২ টা  ই Check করে যদি value মিলেও type না মিললে false দেখায় ।
 
+
+
+
+// 4. "apple" এবং "apple" লিখে তুলনা করলে, "apple" == "apple" এবং "apple" === "apple"-এর আউটপুট কী হবে। 
+
+// if("apple" == "apple"){  // Sotti
+//     console.log('Sotti');
+// }
+
+// if("apple" === "apple"){ // Sotti
+//     console.log('Sotti');
+// }
+// else{
+//     console.log('Mitha');
+// }
 

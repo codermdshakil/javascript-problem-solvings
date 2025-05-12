@@ -1,7 +1,7 @@
 /**
  * JavaScript Advanced Comparison Practice:
  * 
- * 1. তোর কাছে 50 টাকা আছে, আর বন্ধুর কাছে আছে "50" টাকা (স্ট্রিং হিসেবে)। একটা প্রোগ্রাম লিখে দেখ, 50 == "50" দিলে আর 50 === "50" দিলে আউটপুট কী আসবে।
+ * 
  * 
  * 2. তোর প্রোগ্রামিং নোটবুকে "JavaScript" লিখে রেখেছিস, আর এটা একটা স্ট্রিং টাইপ ডাটা। এখন তুই দেখতে চাস "JavaScript" == 'JavaScript' আর "JavaScript" === 'JavaScript' দিলে কী আউটপুট আসবে। ব্যাখ্যা কর, কেন একই আউটপুট আসছে।
  * 
@@ -33,4 +33,21 @@ const myFriendMoney = "50";
 //     console.log('Not Equal!');
 // }
 
+
+// 2. তোর প্রোগ্রামিং নোটবুকে "JavaScript" লিখে রেখেছিস, আর এটা একটা স্ট্রিং টাইপ ডাটা। এখন তুই দেখতে চাস "JavaScript" == 'JavaScript' আর "JavaScript" === 'JavaScript' দিলে কী আউটপুট আসবে। ব্যাখ্যা কর, কেন একই আউটপুট আসছে। 
+
+const noteBook = "JavaScript";
+
+if("JavaScript" == 'JavaScript'){
+    console.log('Same same');
+}
+
+if("JavaScript" === 'JavaScript'){
+    console.log('same same same');
+}
+
+
+
+// == শুধু value check করে type check করে না এর জন্য  যদি value ২ টা মিলে type না মিললেও True দেখায় ।
+// === value + type ২ টা  ই Check করে যদি value মিলেও type না মিললে false দেখায় ।
 

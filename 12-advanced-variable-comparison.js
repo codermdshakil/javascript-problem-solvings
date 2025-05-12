@@ -114,19 +114,19 @@ const noteBook = "JavaScript";
 const variableA = Hello;
 const variableB = "Hello";
 
-if(variableA == variableB){
-    console.log("Value are same");
-}
-else{
-    console.log("Not Same");
-}
+// if(variableA == variableB){
+//     console.log("Value are same");
+// }
+// else{
+//     console.log("Not Same");
+// }
 
-if(variableA === variableB){
-    console.log("Value+ type are same");
-}
-else{
-    console.log("Not Same");
-}
+// if(variableA === variableB){
+//     console.log("Value+ type are same");
+// }
+// else{
+//     console.log("Not Same");
+// }
 
 
 

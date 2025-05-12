@@ -82,3 +82,26 @@ const noteBook = "JavaScript";
 //     console.log('Mitha');
 // }
 
+
+
+// 5. একটা প্রোগ্রাম লিখে দেখ, "test" এবং "TEST"-এর মধ্যে "test" == "TEST" এবং "test" === "TEST"-এর আউটপুট কী হবে। 
+
+if("test" == "TEST"){
+    console.log("true");
+}
+else{
+    console.log("false");
+}
+
+
+if("test" === "TEST"){
+    console.log("true");
+}
+else{
+    console.log("false");
+}
+
+// 
+// false
+// false
+

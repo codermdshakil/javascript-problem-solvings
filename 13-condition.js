@@ -30,6 +30,16 @@
 // output : ঝাড়ুর বাড়ি দিবে
 
 
+//  2. একটা মোবাইল অ্যাপে যদি লগইন সফল হয়, তাহলে "Welcome!" দেখাবে। যদি ব্যর্থ হয়, "Get Lost!" দেখাবে। এই শর্তের জন্য প্রোগ্রাম লিখ। 
 
+const isLogedIn = true;
 
+// if(isLogedIn){
+//     console.log('Welcome!');
+// }else{
+//     console.log('Get Lost!');
+// }
+
+// // shortcut 
+// isLogedIn ? console.log('Welcome!'):console.log('Get Lost!');
 

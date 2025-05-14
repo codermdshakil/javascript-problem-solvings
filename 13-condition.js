@@ -6,8 +6,7 @@
  * 
  *
  * 
- * 4. ধর, তোর বাবা বলেছে, যদি তুই পরীক্ষায় 80-এর বেশি পেয়ে পাস করিস, তাহলে তোকে বাইক কিনে দিবে। কিন্তু যদি কম হয়, তাহলে বাইক দিবে
- * না।
+ * 
  * 
  * 5. একটা প্রোগ্রাম লিখে দেখ, তুই বাইক পাবি কি না, যদি তোর নম্বর 85 হয়।
  * 
@@ -49,11 +48,23 @@ const isLogedIn = true;
 
 const runingMeter = 5;
 
-if(runingMeter === 5){
-    console.log('Cocolate Khete dibe');
-}else{
-    console.log('Vhori mota hobe');
-}
+// if(runingMeter === 5){
+//     console.log('Cocolate Khete dibe');
+// }else{
+//     console.log('Vhori mota hobe');
+// }
 
+
+
+// 4. ধর, তোর বাবা বলেছে, যদি তুই পরীক্ষায় 80-এর বেশি পেয়ে পাস করিস, তাহলে তোকে বাইক কিনে দিবে। কিন্তু যদি কম হয়, তাহলে বাইক দিবে
+//  না।
+
+const examMarks = 40;
+if(examMarks === 40){
+    console.log('Bike kine dibe');
+}
+else{
+    console.log('Bike dibe na!');
+}
 
 

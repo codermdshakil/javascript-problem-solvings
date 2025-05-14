@@ -2,19 +2,6 @@
 /**
  * JavaScript Condition Practice:
  *
- *
- * 
- *
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 7. তাপমাত্রা 30 ডিগ্রি বা তার বেশি হয়, তাহলে এয়ার কন্ডিশনার চালাবি। আর কম হলে কম্বল মুড়ি দিয়েই ঘুমাবি। এর জন্য কোড লিখ।
- * 
- * 
 */
 
 // 1. তোর আম্মু বলছে, 6টার আগে বাসায় ফিরলে তোকে নাস্তা খাওয়াবে। আর দেরি করলে ঝাড়ুর বাড়ি দিবে। এই শর্তের জন্য কোড কর। 
@@ -75,12 +62,24 @@ const examMarks = 85;
 
 // 6. যদি মুভির শো রাত 9টার আগে হয়, তাহলে তুই মুভি দেখবি। যদি পরে হয়, তাহলে বাসায় গিয়ে নাকে তেল দিয়ে ঘুমাবি। এর জন্য প্রোগ্রাম লিখ। 
 
-const movieShowTime = 8;
+// const movieShowTime = 8;
 
-if(movieShowTime < 9){
-    console.log('I will go for Movie');
+// if(movieShowTime < 9){
+//     console.log('I will go for Movie');
+// }
+// else{
+//     console.log('I will go for Sleep');
+// }
+
+
+
+// 7. তাপমাত্রা 30 ডিগ্রি বা তার বেশি হয়, তাহলে এয়ার কন্ডিশনার চালাবি। আর কম হলে কম্বল মুড়ি দিয়েই ঘুমাবি। এর জন্য কোড লিখ। 
+
+const temparature = 30;
+
+if(temparature >= 30){
+    console.log('Open Air Codition');
 }
 else{
-    console.log('I will go for Sleep');
+    console.log('Stop Air Codition');
 }
-

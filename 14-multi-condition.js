@@ -3,7 +3,7 @@
  * 
  * 
  * 
- * 3. একজন স্টুডেন্টের GPA যদি 5 হয় এবং পরিবারের মাসিক আয় 10000-এর কম হয়, তাহলে সে স্কলারশিপ পাবে। না হয় তাকে বেতন দিয়ে পড়তে হবে। 
+ * 
  * 
  * 4. একজন চাকরিপ্রার্থী পরীক্ষা দিতে পারবে, যদি তার বয়স 30-এর কম হয় এবং কাজের অভিজ্ঞতা 2 বছরের বেশি হয়। আর না হয় চাকরির পরীক্ষা দিতে পারবে না। এমন একটা প্রোগ্রাম লিখ।
  * 
@@ -36,14 +36,28 @@
 
 // 2. একটি প্রোগ্রাম লিখ। যা চেক করবে, একজন শিক্ষার্থী ভর্তি হওয়ার যোগ্য কি না। গণিত স্কোর 80-এর বেশি অথবা ইংরেজি স্কোর 85-এর বেশি হতে হবে। আর এইগুলার কোনোটাই সত্যি না হলে বলবি— তোকে বিয়ে দিয়ে দিব। 
 
-const mathScore = 80;
-const englishScore = 85;
+// const mathScore = 80;
+// const englishScore = 85;
 
-if(mathScore > 80 || englishScore > 85){
-    console.log('You are elligable for New School!');
-}else{
-    console.log('You stupid! We will Marry with one guy!');
+// if(mathScore > 80 || englishScore > 85){
+//     console.log('You are elligable for New School!');
+// }else{
+//     console.log('You stupid! We will Marry with one guy!');
+// }
+
+
+// 3. একজন স্টুডেন্টের GPA যদি 5 হয় এবং পরিবারের মাসিক আয় 10000-এর কম হয়, তাহলে সে স্কলারশিপ পাবে। না হয় তাকে বেতন দিয়ে পড়তে হবে।  
+const gpa = 5;
+const familyIncome = 9000;
+
+if(gpa === 5 && familyIncome < 10000){
+    console.log('Congrats! You get Free Schollership!');
 }
+else{
+    console.log('You are not Elligable for Schoolership!');
+}
+
+
 
 
 

@@ -1,7 +1,7 @@
 /**
  * JavaScript multiple condition Practice:
  * 
- * 2. একটি প্রোগ্রাম লিখ। যা চেক করবে, একজন শিক্ষার্থী ভর্তি হওয়ার যোগ্য কি না। গণিত স্কোর 80-এর বেশি অথবা ইংরেজি স্কোর 85-এর বেশি হতে হবে। আর এইগুলার কোনোটাই সত্যি না হলে বলবি— তোকে বিয়ে দিয়ে দিব।
+ * 
  * 
  * 3. একজন স্টুডেন্টের GPA যদি 5 হয় এবং পরিবারের মাসিক আয় 10000-এর কম হয়, তাহলে সে স্কলারশিপ পাবে। না হয় তাকে বেতন দিয়ে পড়তে হবে। 
  * 
@@ -23,14 +23,27 @@
 
 // 1. একটি প্রোগ্রাম লিখ। যেটা চেক করবে, বয়স 18-এর বেশি কি না এবং উচ্চতা 60 ইঞ্চির বেশি কি না। তাহলে সে গাড়ি ঠেলবে, না হয় সে গাড়িতে বসে থাকবে।  
 
-const age = 17;
-const heightInInch = 60;
+// const age = 17;
+// const heightInInch = 60;
 
-if(age > 18 && heightInInch > 60){
-    console.log('gari thelbe!');
+// if(age > 18 && heightInInch > 60){
+//     console.log('gari thelbe!');
+// }
+// else{
+//     console.log('gari te bosbe!');
+// }
+
+
+// 2. একটি প্রোগ্রাম লিখ। যা চেক করবে, একজন শিক্ষার্থী ভর্তি হওয়ার যোগ্য কি না। গণিত স্কোর 80-এর বেশি অথবা ইংরেজি স্কোর 85-এর বেশি হতে হবে। আর এইগুলার কোনোটাই সত্যি না হলে বলবি— তোকে বিয়ে দিয়ে দিব। 
+
+const mathScore = 80;
+const englishScore = 85;
+
+if(mathScore > 80 || englishScore > 85){
+    console.log('You are elligable for New School!');
+}else{
+    console.log('You stupid! We will Marry with one guy!');
 }
-else{
-    console.log('gari te bosbe!');
-}
+
 
 

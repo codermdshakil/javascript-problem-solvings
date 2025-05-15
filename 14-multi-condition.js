@@ -5,7 +5,7 @@
  * 
  * 
  * 
- * 4. একজন চাকরিপ্রার্থী পরীক্ষা দিতে পারবে, যদি তার বয়স 30-এর কম হয় এবং কাজের অভিজ্ঞতা 2 বছরের বেশি হয়। আর না হয় চাকরির পরীক্ষা দিতে পারবে না। এমন একটা প্রোগ্রাম লিখ।
+ * 
  * 
  * 5. তোর ফ্রিজের ভেতর ডিমের সংখ্যা 12-এর বেশি অথবা মুরগি না থাকে, তাহলে তুই ডিমের কোরমা রান্না করবি। আর না হলে পাউরুটি আর কলা খাবি। এমন একটা কোড লিখ।
  * 
@@ -50,13 +50,25 @@
 const gpa = 5;
 const familyIncome = 9000;
 
-if(gpa === 5 && familyIncome < 10000){
-    console.log('Congrats! You get Free Schollership!');
+// if(gpa === 5 && familyIncome < 10000){
+//     console.log('Congrats! You get Free Schollership!');
+// }
+// else{
+//     console.log('You are not Elligable for Schoolership!');
+// }
+
+
+// 4. একজন চাকরিপ্রার্থী পরীক্ষা দিতে পারবে, যদি তার বয়স 30-এর কম হয় এবং কাজের অভিজ্ঞতা 2 বছরের বেশি হয়। আর না হয় চাকরির পরীক্ষা দিতে পারবে না। এমন একটা প্রোগ্রাম লিখ। 
+
+const jobSeckerAge =35;
+const workExperiencedYears = 1;
+
+if(workExperiencedYears > 2 && jobSeckerAge < 30){
+    console.log('Congrats! You are Selected Job Interview!');
 }
 else{
-    console.log('You are not Elligable for Schoolership!');
+    console.log('Congrats! You are not Selected Job Interview!');
 }
-
 
 
 

@@ -1,23 +1,6 @@
 /**
  * JavaScript multiple condition Practice:
  * 
- * 
- * 
- * 
- * 
- * 
- * 
- *
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 9. শার্টের দাম 1000 টাকার বেশি হলে এবং কুপন থাকলে তোকে 20 পারসেন্ট ডিসকাউন্ট দেয়া হবে। এর জন্য প্রোগ্রাম লিখ।
- * 
- * 
 */
 
 
@@ -115,15 +98,26 @@ const checken = false;
 // 8. যদি তোর বাসার বিদ্যুৎ চলে যায় এবং মোবাইলে চার্জ না থাকে, তাহলে তুই পড়তে বসবি। না হলে ভিডিও গেম খেলবি। এর জন্য কোড লিখ। 
 
 
-const isLoadShedding = false;
-const isPhoneCharge = false;
+// const isLoadShedding = false;
+// const isPhoneCharge = false;
 
-if(isLoadShedding === false && isPhoneCharge === false){
-    console.log('Porte boshbi');
-}
-else{
-    console.log('Playing Video game!');
-}
+// if(isLoadShedding === false && isPhoneCharge === false){
+//     console.log('Porte boshbi');
+// }
+// else{
+//     console.log('Playing Video game!');
+// }
 
+
+// 9. শার্টের দাম 1000 টাকার বেশি হলে এবং কুপন থাকলে তোকে 20 পারসেন্ট ডিসকাউন্ট দেয়া হবে। এর জন্য প্রোগ্রাম লিখ।
+
+const shartPrice = 1001;
+const coupon = true;
+
+if(shartPrice >1000 && coupon === true){
+    console.log('You get 20% Discount!');
+}else{
+    console.log('Fixed Price Brother!');
+}
 
 

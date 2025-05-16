@@ -13,7 +13,7 @@
  * 
  * 
  * 
- * 8. যদি তোর বাসার বিদ্যুৎ চলে যায় এবং মোবাইলে চার্জ না থাকে, তাহলে তুই পড়তে বসবি। না হলে ভিডিও গেম খেলবি। এর জন্য কোড লিখ।
+ * 
  * 
  * 9. শার্টের দাম 1000 টাকার বেশি হলে এবং কুপন থাকলে তোকে 20 পারসেন্ট ডিসকাউন্ট দেয়া হবে। এর জন্য প্রোগ্রাম লিখ।
  * 
@@ -99,12 +99,31 @@ const checken = false;
 
 
 // 7. একজন শিক্ষার্থীকে পরীক্ষা দিতে দেয়া হবে, যদি তার উপস্থিতি 80 শতাংশের বেশি এবং হোমওয়ার্ক জমা দেয়া থাকে। নচেৎ অটো ফেল। এই শর্তের জন্য প্রোগ্রাম লিখ। 
-const attendence = 40;
-const isDoneHomeWork = true;
 
-if(attendence > 40 && isDoneHomeWork === true){
-    console.log('Congrats! You can do Exam..');
+// const attendence = 40;
+// const isDoneHomeWork = true;
+
+// if(attendence > 40 && isDoneHomeWork === true){
+//     console.log('Congrats! You can do Exam..');
+// }
+// else{
+//     console.log('You auto Fail!');
+// }
+
+
+
+// 8. যদি তোর বাসার বিদ্যুৎ চলে যায় এবং মোবাইলে চার্জ না থাকে, তাহলে তুই পড়তে বসবি। না হলে ভিডিও গেম খেলবি। এর জন্য কোড লিখ। 
+
+
+const isLoadShedding = false;
+const isPhoneCharge = false;
+
+if(isLoadShedding === false && isPhoneCharge === false){
+    console.log('Porte boshbi');
 }
 else{
-    console.log('You auto Fail!');
+    console.log('Playing Video game!');
 }
+
+
+

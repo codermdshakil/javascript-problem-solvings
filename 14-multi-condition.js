@@ -7,7 +7,7 @@
  * 
  * 
  * 
- * 5. তোর ফ্রিজের ভেতর ডিমের সংখ্যা 12-এর বেশি অথবা মুরগি না থাকে, তাহলে তুই ডিমের কোরমা রান্না করবি। আর না হলে পাউরুটি আর কলা খাবি। এমন একটা কোড লিখ।
+ *
  * 
  * 6. একজন মানুষের যদি শরীরের তাপমাত্রা 100 ডিগ্রির বেশি অথবা কাশি থাকে, তাহলে সে ডাক্তারের কাছে যাবে। নচেৎ সে কাঁথা মুড়ি দিয়ে শুয়ে থাকবে। এর জন্য একটা প্রোগ্রাম লিখ।
  * 
@@ -60,16 +60,28 @@ const familyIncome = 9000;
 
 // 4. একজন চাকরিপ্রার্থী পরীক্ষা দিতে পারবে, যদি তার বয়স 30-এর কম হয় এবং কাজের অভিজ্ঞতা 2 বছরের বেশি হয়। আর না হয় চাকরির পরীক্ষা দিতে পারবে না। এমন একটা প্রোগ্রাম লিখ। 
 
-const jobSeckerAge =35;
-const workExperiencedYears = 1;
+// const jobSeckerAge =35;
+// const workExperiencedYears = 1;
 
-if(workExperiencedYears > 2 && jobSeckerAge < 30){
-    console.log('Congrats! You are Selected Job Interview!');
+// if(workExperiencedYears > 2 && jobSeckerAge < 30){
+//     console.log('Congrats! You are Selected Job Interview!');
+// }
+// else{
+//     console.log('Congrats! You are not Selected Job Interview!');
+// }
+
+
+
+
+//  5. তোর ফ্রিজের ভেতর ডিমের সংখ্যা 12-এর বেশি অথবা মুরগি না থাকে, তাহলে তুই ডিমের কোরমা রান্না করবি। আর না হলে পাউরুটি আর কলা খাবি। এমন একটা কোড লিখ।
+
+const eggNumbers = 12;
+const checken = false;
+
+if(eggNumbers > 12 && checken === false){
+    console.log('Dimer korma ranna!');
 }
 else{
-    console.log('Congrats! You are not Selected Job Interview!');
+    console.log('Pawruty ar kola khamu!');
 }
-
-
-
 

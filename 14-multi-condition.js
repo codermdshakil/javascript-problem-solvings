@@ -9,7 +9,7 @@
  * 
  *
  * 
- * 6. একজন মানুষের যদি শরীরের তাপমাত্রা 100 ডিগ্রির বেশি অথবা কাশি থাকে, তাহলে সে ডাক্তারের কাছে যাবে। নচেৎ সে কাঁথা মুড়ি দিয়ে শুয়ে থাকবে। এর জন্য একটা প্রোগ্রাম লিখ।
+ * 
  * 
  * 7. একজন শিক্ষার্থীকে পরীক্ষা দিতে দেয়া হবে, যদি তার উপস্থিতি 80 শতাংশের বেশি এবং হোমওয়ার্ক জমা দেয়া থাকে। নচেৎ অটো ফেল। এই শর্তের জন্য প্রোগ্রাম লিখ।
  * 
@@ -78,10 +78,23 @@ const familyIncome = 9000;
 const eggNumbers = 12;
 const checken = false;
 
-if(eggNumbers > 12 && checken === false){
-    console.log('Dimer korma ranna!');
-}
-else{
-    console.log('Pawruty ar kola khamu!');
-}
+// if(eggNumbers > 12 && checken === false){
+//     console.log('Dimer korma ranna!');
+// }
+// else{
+//     console.log('Pawruty ar kola khamu!');
+// }
+
+
+// 6. একজন মানুষের যদি শরীরের তাপমাত্রা 100 ডিগ্রির বেশি অথবা কাশি থাকে, তাহলে সে ডাক্তারের কাছে যাবে। নচেৎ সে কাঁথা মুড়ি দিয়ে শুয়ে থাকবে। এর জন্য একটা প্রোগ্রাম লিখ। 
+
+// const bodyTemparature = 100;
+// const hacchi = true;
+// if(bodyTemparature > 100 || hacchi === true){
+//     console.log('Doctor er kase jabe!');
+// }
+// else{
+//     console.log('Katha mori diye gum dibe!');
+// }
+
 

@@ -14,5 +14,19 @@ function applyDiscount(totalPrice, discount, isPercentage = true) {
 
 
 // Examples:
-console.log(applyDiscount(100, 10));  
+// console.log(applyDiscount(100, 10));  
  
+//  2
+
+const age = 21;
+
+if(age < 12){
+    console.log('Free of cost any food');
+}
+else if(age > 60){
+    console.log('They will get 60% discout!');
+}
+else{
+    console.log('They have to pay full price!');
+}
+

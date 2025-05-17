@@ -11,3 +11,8 @@ function applyDiscount(totalPrice, discount, isPercentage = true) {
   }
 }
 
+
+
+// Examples:
+console.log(applyDiscount(100, 10));  
+ 

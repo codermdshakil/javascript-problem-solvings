@@ -99,3 +99,21 @@ const bookPage = 100;
 //     console.log('Input valid temparature!');
 // }
 
+
+
+//  7
+
+const level = 10;
+
+if(level < 10){
+    console.log('Novice');
+}
+else if(level >= 10 && level < 50){
+    console.log('Expert');
+}
+else if(level > 50){
+    console.log('Pro Gamer');
+}
+else{
+    console.log('Enter a valid level');
+}

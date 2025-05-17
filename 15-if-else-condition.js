@@ -47,15 +47,34 @@ function applyDiscount(totalPrice, discount, isPercentage = true) {
 
 const marks = 85;
 
-if(marks < 50){
-    console.log('Fail');
+// if(marks < 50){
+//     console.log('Fail');
+// }
+// else if(marks >= 80){
+//     console.log('A+');
+// }
+// else if(marks >= 50 && marks <= 80){
+//     console.log('Pass');
+// }
+// else{
+//     console.log('Input valid marks');
+// }
+
+
+//  5
+
+const temparature = 0;
+
+if(temparature <= 0 ){
+    console.log('Ice');
 }
-else if(marks >= 80){
-    console.log('A+');
+else if(temparature > 0 && temparature <= 20 ){
+    console.log('Cool cool');
 }
-else if(marks >= 50 && marks <= 80){
-    console.log('Pass');
+else if(temparature > 20){
+    console.log('Hot hot');
 }
 else{
-    console.log('Input valid marks');
+    console.log('Input valid temparature!');
 }
+

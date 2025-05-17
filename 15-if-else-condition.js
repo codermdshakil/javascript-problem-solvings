@@ -33,11 +33,29 @@ function applyDiscount(totalPrice, discount, isPercentage = true) {
 
 // 3 
 
-const accountBalance = 1000;
+// const accountBalance = 1000;
 
-if(accountBalance <= 1000){
-    console.log('Deposite kor');
+// if(accountBalance <= 1000){
+//     console.log('Deposite kor');
+// }
+// else if(accountBalance > 1000 && accountBalance <= 5000){
+//     console.log('Enjoy your life!');
+// }
+
+
+// 4 
+
+const marks = 85;
+
+if(marks < 50){
+    console.log('Fail');
 }
-else if(accountBalance > 1000 && accountBalance <= 5000){
-    console.log('Enjoy your life!');
+else if(marks >= 80){
+    console.log('A+');
+}
+else if(marks >= 50 && marks <= 80){
+    console.log('Pass');
+}
+else{
+    console.log('Input valid marks');
 }

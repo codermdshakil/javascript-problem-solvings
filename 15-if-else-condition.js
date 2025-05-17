@@ -61,20 +61,41 @@ const marks = 85;
 // }
 
 
-//  5
+// 5
 
-const temparature = 0;
+const bookPage = 100;
 
-if(temparature <= 0 ){
-    console.log('Ice');
-}
-else if(temparature > 0 && temparature <= 20 ){
-    console.log('Cool cool');
-}
-else if(temparature > 20){
-    console.log('Hot hot');
-}
-else{
-    console.log('Input valid temparature!');
-}
+// if(bookPage < 100){
+//     console.log('Small book');
+// }
+// else if(bookPage >= 100 && bookPage <= 500){
+//     console.log('Mid size book');
+// }
+// else if(bookPage > 500){
+//     console.log('Heart Attact size book');
+// }
+// else{
+//     console.log('Please! enter valid book size!');
+// }
+
+
+
+
+
+//  6
+
+// const temparature = 0;
+
+// if(temparature <= 0 ){
+//     console.log('Ice');
+// }
+// else if(temparature > 0 && temparature <= 20 ){
+//     console.log('Cool cool');
+// }
+// else if(temparature > 20){
+//     console.log('Hot hot');
+// }
+// else{
+//     console.log('Input valid temparature!');
+// }
 

@@ -63,17 +63,35 @@ const isPremium = true;
 const isFoodInFrizee = false;
 const foodDeliveryApp = true;
 
-if(isFoodInFrizee){
-    console.log('Khabar gorom koro');
-}
-else{
-    if(foodDeliveryApp){
-        console.log('Order food on online');
-    }
-    else{
-        console.log('Ajke ami roja');
-    }
-}
+// if(isFoodInFrizee){
+//     console.log('Khabar gorom koro');
+// }
+// else{
+//     if(foodDeliveryApp){
+//         console.log('Order food on online');
+//     }
+//     else{
+//         console.log('Ajke ami roja');
+//     }
+// }
+
+
+
+// 5 
+
+const partyGuest = 100;
+const isEveryoneBringGift = false;
+
+
+// if(partyGuest >= 100){
+//     if(isEveryoneBringGift){
+//         console.log('Lets party all night');
+//     }
+//     else{
+//         console.log('I will party with myself!');
+//     }
+// }
+
 
 
 

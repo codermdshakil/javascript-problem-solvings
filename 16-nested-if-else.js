@@ -23,19 +23,38 @@ const invitedMember = true;
 const isTea = true;
 const isBisket = true;
 
-if(invitedMember){
-    if(isTea === true){
-        if(isBisket === true){
-            console.log('Tea with Bisket');
-        }
-        else{
-            console.log('Tea is ready');
-        }
+// if(invitedMember){
+//     if(isTea === true){
+//         if(isBisket === true){
+//             console.log('Tea with Bisket');
+//         }
+//         else{
+//             console.log('Tea is ready');
+//         }
+//     }
+//     else{
+//         console.log('watch star jolsa');
+//     }
+// }
+
+
+// 3 
+
+const isUserActive = true;
+const isPremium = true;
+
+if(isUserActive){
+    if(isPremium){
+        console.log('Show premium features!');
     }
     else{
-        console.log('watch star jolsa');
+        console.log('Just watch normal features');
     }
 }
+else{
+    console.log('Please! Active your Account first.');
+}
+
 
 
 

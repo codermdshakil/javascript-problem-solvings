@@ -17,4 +17,27 @@ const pocketAmount = 500;
 // }
 
 
+//  2
+
+const invitedMember = true;
+const isTea = true;
+const isBisket = true;
+
+if(invitedMember){
+    if(isTea === true){
+        if(isBisket === true){
+            console.log('Tea with Bisket');
+        }
+        else{
+            console.log('Tea is ready');
+        }
+    }
+    else{
+        console.log('watch star jolsa');
+    }
+}
+
+
+
+
 

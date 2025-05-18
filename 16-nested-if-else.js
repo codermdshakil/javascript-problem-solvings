@@ -43,18 +43,37 @@ const isBisket = true;
 const isUserActive = true;
 const isPremium = true;
 
-if(isUserActive){
-    if(isPremium){
-        console.log('Show premium features!');
-    }
-    else{
-        console.log('Just watch normal features');
-    }
+// if(isUserActive){
+//     if(isPremium){
+//         console.log('Show premium features!');
+//     }
+//     else{
+//         console.log('Just watch normal features');
+//     }
+// }
+// else{
+//     console.log('Please! Active your Account first.');
+// }
+
+
+
+
+// 4 
+
+const isFoodInFrizee = false;
+const foodDeliveryApp = true;
+
+if(isFoodInFrizee){
+    console.log('Khabar gorom koro');
 }
 else{
-    console.log('Please! Active your Account first.');
+    if(foodDeliveryApp){
+        console.log('Order food on online');
+    }
+    else{
+        console.log('Ajke ami roja');
+    }
 }
-
 
 
 

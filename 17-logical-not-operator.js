@@ -46,3 +46,7 @@ const sunny = false;
 
 
 
+// 7 
+const expensive = false;
+
+// expensive === false ? console.log('I will buy this item!'):console.log('I not buy it!');

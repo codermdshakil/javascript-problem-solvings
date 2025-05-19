@@ -15,4 +15,15 @@
 // age > 15 ? console.log('Teeneger'):console.log('Child');
 
 
+// 3 
+
+// const isLoggedIn = true;
+// let message;
+
+// isLoggedIn === true ? message="Welcome Back":message="Please Login";
+
+// console.log(message);
+
+
+
 

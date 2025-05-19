@@ -33,9 +33,16 @@ const carOilTank = "full";
 
 // 5 
 
-const examResult = "Fail";
+// const examResult = "Fail";
 
-examResult === 'Passed' ? console.log('Lets party'):console.log('Next semester a valo kore porbo');
+// examResult === 'Passed' ? console.log('Lets party'):console.log('Next semester a valo kore porbo');
+
+
+// 6 
+const sunny = false;
+
+// sunny === false ? console.log('Stay home'):console.log('Go outside of home!');
+
 
 
 

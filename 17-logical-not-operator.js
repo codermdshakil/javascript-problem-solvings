@@ -31,5 +31,11 @@ const carOilTank = "full";
 // carOilTank === "full" ? console.log('Ready for long drive'): console.log('Fill the tang');
 
 
+// 5 
+
+const examResult = "Fail";
+
+examResult === 'Passed' ? console.log('Lets party'):console.log('Next semester a valo kore porbo');
+
 
 

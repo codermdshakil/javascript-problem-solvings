@@ -25,5 +25,11 @@
 // console.log(message);
 
 
+// 4 
+
+const carOilTank = "full";
+// carOilTank === "full" ? console.log('Ready for long drive'): console.log('Fill the tang');
+
+
 
 

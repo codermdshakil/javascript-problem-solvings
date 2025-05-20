@@ -20,3 +20,15 @@ const favourateMovie = ['The Pursuit of Happyness', 'Good Will Hunting', 'The So
 
 // console.log(favourateMovie);
 
+// 5 
+
+const oddNumbers = [];
+
+// for (let i = 11; i <= 30; i++) {
+
+//     if(i%2 > 0){
+//         oddNumbers.push(i);
+//     } 
+// }
+
+// console.log(oddNumbers);

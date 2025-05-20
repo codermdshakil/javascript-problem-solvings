@@ -32,3 +32,10 @@ const oddNumbers = [];
 // }
 
 // console.log(oddNumbers);
+
+
+// 6 
+
+const colors = ['skyblue', 'while', 'black', 'silver', 'red', 'green', 'blue', 'yellow'];
+
+// console.log(colors.length);

@@ -38,4 +38,11 @@ const oddNumbers = [];
 
 const colors = ['skyblue', 'while', 'black', 'silver', 'red', 'green', 'blue', 'yellow'];
 
-// console.log(colors.length);
+// console.log(colors.length); // 8
+
+//  7
+const countriesCapitalCityNames = ['Dhaka','Washington, D.C.', 'London', 'Ottawa', 'Canberra', 'New Delhi', 'Beijing', 'Tokyo', 'Paris', 'Berlin'];
+
+// console.log(countriesCapitalCityNames.length); // 10
+
+

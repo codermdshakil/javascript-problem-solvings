@@ -18,3 +18,9 @@ const numbers = [1,2,3,4,5,6,7,8,9,10];
 
 numbers[6] = 30;
 
+// 4 
+const phoneGames = ['firefire', 'pubg', 'candy crash', 'tample run'];
+
+phoneGames[2] = 'Subway Safary';
+
+

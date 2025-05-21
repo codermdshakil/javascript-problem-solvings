@@ -35,5 +35,12 @@ const familyMembers = ['Ma', 'Sagor','Sakia','Shakil', 'Saykot', 'Siam'];
 const countriesNames = ['India', 'Thailand', 'Japan', 'Bali', 'Australia', 'Dubai'];
 // console.log(countriesNames[3]); // Bali
 
+// 7 
+
+const tableElments = ['Pen','Note','Monitor','Laptop'];
+tableElments[7] = 'Mouse';
+
+console.log(tableElments);
+
 
 

@@ -28,6 +28,12 @@ phoneGames[2] = 'Subway Safary';
 
 const familyMembers = ['Ma', 'Sagor','Sakia','Shakil', 'Saykot', 'Siam'];
 
-console.log(familyMembers[3]); // Shakil
+// console.log(familyMembers[3]); // Shakil
+
+// 6
+
+const countriesNames = ['India', 'Thailand', 'Japan', 'Bali', 'Australia', 'Dubai'];
+// console.log(countriesNames[3]); // Bali
+
 
 

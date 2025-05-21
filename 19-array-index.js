@@ -24,3 +24,10 @@ const phoneGames = ['firefire', 'pubg', 'candy crash', 'tample run'];
 phoneGames[2] = 'Subway Safary';
 
 
+// 5 
+
+const familyMembers = ['Ma', 'Sagor','Sakia','Shakil', 'Saykot', 'Siam'];
+
+console.log(familyMembers[3]); // Shakil
+
+

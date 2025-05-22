@@ -12,3 +12,9 @@ friends.push('Sumon');
 // console.log(friends); // [ 'Sojib', 'Sagor', 'Sakib', 'Sohel', 'Sumon' ]
 
 
+// 3 
+const phoneGames = ['FreeFire', 'PUBG', 'COC', 'Template Run'];
+phoneGames.pop();
+// console.log(phoneGames); //[ 'FreeFire', 'PUBG', 'COC' ]
+
+

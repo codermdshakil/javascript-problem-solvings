@@ -22,5 +22,9 @@ const numbers = [24, 36, 48, 60];
 numbers.unshift(12);
 // console.log(numbers); // [ 12, 24, 36, 48, 60 ]
 
+// 5 
+const favoriteBooks = ['Power of Now', 'Atomic Habit', 'Phycology of Money', 'Rich dad poor dad', 'Lean startUp'];
+favoriteBooks.shift();
+// console.log(favoriteBooks); // ['Atomic Habit','Phycology of Money','Rich dad poor dad','Lean startUp']
 
 

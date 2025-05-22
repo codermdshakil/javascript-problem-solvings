@@ -17,4 +17,10 @@ const phoneGames = ['FreeFire', 'PUBG', 'COC', 'Template Run'];
 phoneGames.pop();
 // console.log(phoneGames); //[ 'FreeFire', 'PUBG', 'COC' ]
 
+// 4 
+const numbers = [24, 36, 48, 60];
+numbers.unshift(12);
+// console.log(numbers); // [ 12, 24, 36, 48, 60 ]
+
+
 

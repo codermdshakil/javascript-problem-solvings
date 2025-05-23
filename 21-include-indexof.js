@@ -24,7 +24,14 @@ const isMango = fruits.includes('mango');
 
 const names = ['babul', 'alif', 'choton'];
 const indexOfBabul = names.indexOf('babul');
-// console.log(indexOfBabul);// 0
+// console.log(indexOfBabul); // 0
+
+// 4
+
+const friends = ['rimon', 'rifat', 'razib'];
+const indexOfRifat = friends.indexOf('rifat');
+// console.log(indexOfRifat); // 1
+
 
 
 

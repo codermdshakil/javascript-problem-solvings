@@ -38,6 +38,17 @@ const cities = ['Dhaka', 'Chittagong', 'Sylhet', 'rajshahi'];
 const isRajShahi = cities.includes('RajShahi');
 // console.log(isRajShahi); // false 
 
+// 6 
+
+const rainArray = ['Deghi', 'Meg', 'Bristy', 'Borsha'];
+const isBristy = rainArray.includes('Bristy');
+
+// if(isBristy){
+//     console.log('I need Umbreralla');
+// }else{
+//     console.log('No rain No pain');
+// }
+
 
 
 

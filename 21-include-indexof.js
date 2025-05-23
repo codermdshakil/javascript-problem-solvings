@@ -32,6 +32,13 @@ const friends = ['rimon', 'rifat', 'razib'];
 const indexOfRifat = friends.indexOf('rifat');
 // console.log(indexOfRifat); // 1
 
+// 5 
+
+const cities = ['Dhaka', 'Chittagong', 'Sylhet', 'rajshahi'];
+const isRajShahi = cities.includes('RajShahi');
+// console.log(isRajShahi); // false 
+
+
 
 
 

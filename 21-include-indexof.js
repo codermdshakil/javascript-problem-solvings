@@ -12,11 +12,19 @@
 const fruits = ['apple', 'mango', 'banana', 'litchi'];
 const isMango = fruits.includes('mango');
 
-if(isMango){
-    console.log('Mango ase!');
-}
-else{
-    console.log('Mango nai gache ot!');
-}
+// if(isMango){
+//     console.log('Mango ase!');
+// }
+// else{
+//     console.log('Mango nai gache ot!');
+// }
+
+
+// 3 
+
+const names = ['babul', 'alif', 'choton'];
+const indexOfBabul = names.indexOf('babul');
+// console.log(indexOfBabul);// 0
+
 
 

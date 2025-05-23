@@ -7,6 +7,16 @@
 // যদি item টা কোন index-এ আছে সেটা জানতে চাও → ✅ indexOf()
 
 
+// 2. 
 
+const fruits = ['apple', 'mango', 'banana', 'litchi'];
+const isMango = fruits.includes('mango');
+
+if(isMango){
+    console.log('Mango ase!');
+}
+else{
+    console.log('Mango nai gache ot!');
+}
 
 

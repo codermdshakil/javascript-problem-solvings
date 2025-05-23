@@ -50,6 +50,12 @@ const isBristy = rainArray.includes('Bristy');
 // }
 
 
+// 7 
+const favSports = ['Football', 'Chricket', 'Boliboll'];
+const isBadminton = favSports.includes('Badminton');
+
+isBadminton || console.log('No! Badminton are not available!');
+
 
 
 

@@ -2,8 +2,7 @@
 // JavaScript Loop Practice:
 //
 
-// 2.  র একদম পছন্দের খাবার লোর নাম লেখ। এখন লুপ ব্যবহার করে  program লিখে দেখ, কীভাবে সব খাবারের নাম আলাদা
-// আলাদা করে print হবে ।
+
 
 // 3. একটা অ্যা রে র মধ্যে  র ফ্যা মি লি মে ম্বা রদে র জসা ল লি খে ফে ল। তা রপর লুপ চা লি য়ে সবা র জসা ল আউটপুট হি সে বে
 // দে খা ।
@@ -23,5 +22,13 @@ const favouriteSubjects = ['Science', 'Math', 'Biology', 'Chemistry', 'Physics']
 //     console.log(favouriteSubjects[i]);
 // }
 
+// 2.  তোর একদম পছন্দের খাবার গুলোর নাম লেখ। এখন লুপ ব্যবহার করে  program লিখে দেখ, কীভাবে সব খাবারের নাম আলাদা
+// আলাদা করে print হবে ।
+
+const favFoods = ['Gorur mangso', 'Biriyani', 'shotkimas', 'Bhat', 'kabab'];
+
+// for(let i = 0; i < favFoods.length;i++){
+//     console.log(favFoods[i]);
+// }
 
 

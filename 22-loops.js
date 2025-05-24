@@ -5,7 +5,7 @@
 
 
 
-// 4. ক্রি কে ট বা ফুটবল খে লা য়  র প্রি য় একা দশে র একটা ম বা নি য়ে  র প্রি য় খে লো য়া ড়দে র না ম একটা অ্যা রে র মধ্যে রা খ।
+// 4.  
 // তা রপর কনে ল লগ করে সব খে লো য়া ড়দে র না ম আউটপুট হি সে বে দে খবি ।
 // 5. নে ট কবে কবে  র পরী ক্ষা আছে, সে ই তা রি খলা অ্যা রে র মধ্যে লি খে ফে ল। তা রপর লুপ ব্য বহা র করে পরী ক্ষা র
 // তা রি খলা কনে ল লগ কর।
@@ -35,9 +35,28 @@ const favFoods = ['Gorur mangso', 'Biriyani', 'shotkimas', 'Bhat', 'kabab'];
 
 const familyNumbersDOBS = ['1973', '1983', '2000','2003', '2004', '2010', '2012'];
 
-for(let i = 0; i < familyNumbersDOBS.length;i++){
-    console.log(familyNumbersDOBS[i]);
-}
+// for(let i = 0; i < familyNumbersDOBS.length;i++){
+//     console.log(familyNumbersDOBS[i]);
+// }
 
 
+// 4 তোমার প্রিয় ক্রিকেট বা ফুটবল দলের ১১ জন খেলোয়াড়ের নাম একটি অ্যারের মধ্যে সংরক্ষণ করো।
+// এরপর console.log() ব্যবহার করে সেই অ্যারের সকল খেলোয়াড়ের নাম আউটপুট হিসেবে দেখাও।
 
+const footBallTeam = [
+    "Messi",
+    "CR7",
+    "Neymer",
+    "MBAPPI",
+    "Modric",
+    "De Bruyne",
+    "Salah",
+    "Benzema",
+    "Kane",
+    "Haaland",
+    "Vinicius"
+];
+
+// for(let i = 0; i < footBallTeam.length;i++){
+//     console.log(footBallTeam[i]);
+// }

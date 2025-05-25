@@ -3,7 +3,7 @@
 
 
 
-// 2. একটি while লুপ ব্যবহার করে 1 থেকে 20 পর্যন্ত সংখ্যা প্রিন্ট করো।
+
 
 // 3. একটি while লুপ ব্যবহার করে 50 থেকে 100 পর্যন্ত সংখ্যা প্রিন্ট করো।
 
@@ -17,10 +17,19 @@
 
 let num = 0;
 
-while(num < 5){
-    console.log('Everyday at least 3 hourse for programming');
-    num++;
-}
+// while(num < 5){
+//     console.log('Everyday at least 3 hourse for programming');
+//     num++;
+// }
+
+
+// 2. একটি while লুপ ব্যবহার করে 1 থেকে 20 পর্যন্ত সংখ্যা প্রিন্ট করো।
+
+let n = 1;
+// while(n <= 20){
+//     console.log(n);
+//     n++;
+// }
 
 
 

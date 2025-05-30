@@ -11,3 +11,16 @@ const teacher = {
         road:"Kapasia road",
     }
 }
+
+// 2
+
+const tree = {
+    nameOfTree:"Apple Tree",
+    height:34,
+    froodName:"Apple",
+    age:24
+};
+
+
+console.log(teacher);
+console.log(tree);

@@ -35,4 +35,12 @@ const animals = {
     10:"Daynasor"
 };
 
+// 4 
 
+const father = {
+    name:"Salim Mia",
+    age:48,
+    profession:"Business",
+    childrens:4,
+    wifeName:"Fatema"
+};

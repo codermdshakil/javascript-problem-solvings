@@ -56,3 +56,10 @@ const motorbike = {
     highestSpeed:'250cc'
 };
 
+// 6 
+const bird = {
+    birdName:"Moyna",
+    color:"Black and white",
+    food:"Normal foods"
+}
+

@@ -63,3 +63,12 @@ const bird = {
     food:"Normal foods"
 }
 
+// 7 
+const laptop = {
+    brand:"Hp",
+    processor:"Intel",
+    ram:8,
+    price:60000,
+    display:21
+}
+

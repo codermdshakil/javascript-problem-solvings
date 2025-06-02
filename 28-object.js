@@ -44,3 +44,15 @@ const father = {
     childrens:4,
     wifeName:"Fatema"
 };
+
+
+// 5 
+
+const motorbike = {
+    brand:"YAMAHA",
+    tayarNumbers:2,
+    color:"black",
+    price:250000,
+    highestSpeed:'250cc'
+};
+

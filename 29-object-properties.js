@@ -44,4 +44,14 @@ const phone = {
 
 // console.log(phone['price']);
 
+// 5
+
+const library = {
+    name:"Public Library",
+    location:"Dhaka",
+    books:5000
+};
+
+// console.log(library.location);
+
 

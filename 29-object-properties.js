@@ -34,4 +34,14 @@ const favPlace = {
 
 // console.log(favPlace['popularity']);
 
+// 4
+const phone = {
+    brand:"Nokia",
+    color:"Black",
+    price:5000
+};
+
+
+// console.log(phone['price']);
+
 

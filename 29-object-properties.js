@@ -23,3 +23,15 @@ const laptop = {
 
 // console.log(laptop['screenSize']);
 // console.log(laptop.screenSize);
+
+// 3
+
+const favPlace = {
+    name:"Cox's Bazar",
+    distance:"400km",
+    popularity:'High'
+};
+
+// console.log(favPlace['popularity']);
+
+

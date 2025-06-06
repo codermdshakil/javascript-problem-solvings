@@ -74,5 +74,26 @@ const college ={
 // console.log(college.groups[1]);
 
 
+// 8
+const family = {
+    father:{
+        fatherName:"Salim",
+        age:48,
+        profession:"Busineess"
+    },
+    mother:{
+        motherName:"Fatema",
+        age:40,
+        profession:"Homemaker"
+    }
+};
+
+
+const motherAge = family.mother.age;
+const fatherAge = family.father.age;
+
+const totalAge = motherAge + fatherAge;
+
+console.log(totalAge);
 
 

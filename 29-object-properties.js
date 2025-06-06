@@ -54,4 +54,16 @@ const library = {
 
 // console.log(library.location);
 
+// 6 
+
+const movie = {
+    title:"Inception",
+    diretor:"Nolan",
+    "rating":9
+};
+
+// console.log(movie['rating']);
+
+
+
 

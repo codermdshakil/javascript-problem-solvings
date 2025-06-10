@@ -2,8 +2,7 @@
 // 
 
 
-// 3. নিচের laptop অবজেক্টের জন্য for...in লুপ ব্যবহার করে প্রতিটি প্রপার্টি এবং তার মান প্রিন্ট করো:
-// const laptop = { brand: "Dell", model: "Inspiron", price: 45000 };
+
 
 // 4. নিচের phone অবজেক্টে Object.keys() ব্যবহার করে for...of লুপের মাধ্যমে প্রতিটি প্রপার্টি এবং তার মান কনসোলে লগ করো:
 // const phone = { brand: "Samsung", model: "Galaxy S21", price: 85000 };
@@ -38,4 +37,15 @@ const article = { title: "Learning JS", category: "Programming" };
 const keysArray = Object.keys(article);
 // console.log(keysArray.includes('author')); // false
 
+
+// 3. নিচের laptop অবজেক্টের জন্য for...in লুপ ব্যবহার করে প্রতিটি প্রপার্টি এবং তার মান প্রিন্ট করো:
+const laptop = { brand: "Dell", model: "Inspiron", price: 45000 };
+
+for(const val in laptop){
+  console.log(val);
+}
+
+for(const val of laptop){
+  console.log(val);
+}
 

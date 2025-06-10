@@ -1,8 +1,6 @@
 
 // 
 
-// 2. নিচের অবজেক্টটিতে author নামের প্রপার্টি আছে কি না তা চেক করো:
-// const article = { title: "Learning JS", category: "Programming" };
 
 // 3. নিচের laptop অবজেক্টের জন্য for...in লুপ ব্যবহার করে প্রতিটি প্রপার্টি এবং তার মান প্রিন্ট করো:
 // const laptop = { brand: "Dell", model: "Inspiron", price: 45000 };
@@ -32,5 +30,12 @@ const book = {
   author:"Jemns Clear"
 };
 
-console.log(Object.keys(book));
-console.log(Object.values(book));
+// console.log(Object.keys(book));
+// console.log(Object.values(book));
+
+// 2. নিচের অবজেক্টটিতে author নামের প্রপার্টি আছে কি না তা চেক করো:
+const article = { title: "Learning JS", category: "Programming" };
+const keysArray = Object.keys(article);
+// console.log(keysArray.includes('author')); // false
+
+

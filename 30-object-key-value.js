@@ -4,8 +4,6 @@
 
 
 
-// 4. নিচের phone অবজেক্টে Object.keys() ব্যবহার করে for...of লুপের মাধ্যমে প্রতিটি প্রপার্টি এবং তার মান কনসোলে লগ করো:
-// const phone = { brand: "Samsung", model: "Galaxy S21", price: 85000 };
 
 // 5. bike নামে একটি অবজেক্ট তৈরি করো, যেখানে থাকবে brand: "Hero", price: 120000, এবং model: "Splendor"। এরপর Object.values() ব্যবহার করে সব ভ্যালু বের করো।
 
@@ -42,10 +40,22 @@ const keysArray = Object.keys(article);
 const laptop = { brand: "Dell", model: "Inspiron", price: 45000 };
 
 for(const val in laptop){
-  console.log(val);
+  // console.log(val);
 }
 
-for(const val of laptop){
-  console.log(val);
+// brand
+// model
+// price
+
+
+
+// 4. নিচের phone অবজেক্টে Object.keys() ব্যবহার করে for...of লুপের মাধ্যমে প্রতিটি প্রপার্টি এবং তার মান কনসোলে লগ করো:
+const phone = { brand: "Samsung", model: "Galaxy S21", price: 85000 };
+
+const keysArr = Object.keys(phone);
+
+for(const val of keysArr){
+  console.log(val + " " +phone[val]);
 }
 
+ 

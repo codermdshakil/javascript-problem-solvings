@@ -1,4 +1,3 @@
-// 9. building নামে একটি অবজেক্ট তৈরি করো, যেখানে থাকবে floors: 10, address: { street: "Main Road", city: "Dhaka" }, এবং type: "Commercial"। এরপর for...in লুপ চালিয়ে সব প্রপার্টি ও তাদের মান প্রিন্ট করো।
 
 // Solutions:
 
@@ -79,4 +78,18 @@ const player = {
 };
 
 const playersValues = Object.values(player);
-console.log(playersValues);
+// console.log(playersValues);
+
+
+// 9. building নামে একটি অবজেক্ট তৈরি করো, যেখানে থাকবে floors: 10, address: { street: "Main Road", city: "Dhaka" }, এবং type: "Commercial"। এরপর for...in লুপ চালিয়ে সব প্রপার্টি ও তাদের মান প্রিন্ট করো।
+
+const building = {
+  floors:10,
+  address: { street: "Main Road", city: "Dhaka" },
+  type: "Commercial"
+}
+
+for(const val in building){
+  console.log(building[val]);
+}
+

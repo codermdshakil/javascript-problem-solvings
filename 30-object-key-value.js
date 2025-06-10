@@ -5,7 +5,6 @@
 
 
 
-// 5. bike নামে একটি অবজেক্ট তৈরি করো, যেখানে থাকবে brand: "Hero", price: 120000, এবং model: "Splendor"। এরপর Object.values() ব্যবহার করে সব ভ্যালু বের করো।
 
 // 6. নিচের books অবজেক্টের ওপর লুপ চালিয়ে সব বইয়ের নাম কনসোলে লগ করো:
 // const books = { book1: "Harry Potter", book2: "The Hobbit", book3: "Game of Thrones" };
@@ -55,7 +54,21 @@ const phone = { brand: "Samsung", model: "Galaxy S21", price: 85000 };
 const keysArr = Object.keys(phone);
 
 for(const val of keysArr){
-  console.log(val + " " +phone[val]);
+  // console.log(val + " " +phone[val]);
 }
+
+
+
+
+// 5. bike নামে একটি অবজেক্ট তৈরি করো, যেখানে থাকবে brand: "Hero", price: 120000, এবং model: "Splendor"। এরপর Object.values() ব্যবহার করে সব ভ্যালু বের করো।
+
+const bike = {
+  brand:"Helo",
+  price:1200000,
+  model:"Splendor"
+};
+
+const bikeValues = Object.values(bike);
+console.log(bikeValues);
 
  

@@ -1,10 +1,5 @@
 
 
-
-
-// 7. নিচের numbers অবজেক্টের সব প্রপার্টির মান (value) যোগ করে ফলাফল বের করো:
-// const numbers = { a: 10, b: 20, c: 30, d: 40 };
-
 // 8. player নামে একটি অবজেক্ট তৈরি করো, যেখানে থাকবে name: "Messi", team: "Argentina", এবং goals: 91। এরপর Object.values() ব্যবহার করে সব ভ্যালু বের করো।
 
 // 9. building নামে একটি অবজেক্ট তৈরি করো, যেখানে থাকবে floors: 10, address: { street: "Main Road", city: "Dhaka" }, এবং type: "Commercial"। এরপর for...in লুপ চালিয়ে সব প্রপার্টি ও তাদের মান প্রিন্ট করো।
@@ -69,5 +64,17 @@ const bikeValues = Object.values(bike);
 const books = { book1: "Harry Potter", book2: "The Hobbit", book3: "Game of Thrones" };
 
 for(const val in books){
-  console.log(books[val]);
+  // console.log(books[val]);
 }
+
+
+
+// 7. নিচের numbers অবজেক্টের সব প্রপার্টির মান (value) যোগ করে ফলাফল বের করো:
+const numbers = { a: 10, b: 20, c: 30, d: 40 };
+
+let sum = 0;
+for(const val in numbers){
+  sum+= numbers[val];
+};
+
+console.log(sum);

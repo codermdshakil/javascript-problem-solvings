@@ -1,13 +1,6 @@
 
-// 
 
 
-
-
-
-
-// 6. নিচের books অবজেক্টের ওপর লুপ চালিয়ে সব বইয়ের নাম কনসোলে লগ করো:
-// const books = { book1: "Harry Potter", book2: "The Hobbit", book3: "Game of Thrones" };
 
 // 7. নিচের numbers অবজেক্টের সব প্রপার্টির মান (value) যোগ করে ফলাফল বের করো:
 // const numbers = { a: 10, b: 20, c: 30, d: 40 };
@@ -69,6 +62,12 @@ const bike = {
 };
 
 const bikeValues = Object.values(bike);
-console.log(bikeValues);
+// console.log(bikeValues);
 
  
+// 6. নিচের books অবজেক্টের ওপর লুপ চালিয়ে সব বইয়ের নাম কনসোলে লগ করো:
+const books = { book1: "Harry Potter", book2: "The Hobbit", book3: "Game of Thrones" };
+
+for(const val in books){
+  console.log(books[val]);
+}

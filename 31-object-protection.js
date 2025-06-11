@@ -1,11 +1,5 @@
 //JavaScript Object Protection Problems
 
-
-// ৫. একটি animal অবজেক্ট বানাও, যার মধ্যে থাকবে name: "Tiger" এবং location: "Sundarban"। এখন এমন কিছু করো, যাতে location প্রপার্টিটি চেঞ্জ করা না যায়।
-
-// ৬. নিচের অবজেক্টটি দাও: const food = { name: "Pizza", price: 500, size: "Large" };
-// এমন কিছু করো, যাতে food অবজেক্টে নতুন কোনো প্রপার্টি যোগ করা না যায়, কিন্তু চাইলে price বাড়ানো বা কমানো যাবে।
-
 // Solutions:
 
 // ১. ধরো, একটি headphone অবজেক্ট আছে, যার মধ্যে রয়েছে brand: "Sony", price: 3000, এবং color: "red"। Object.freeze() মেথড ব্যবহার করে অবজেক্টটি ফ্রিজ করো। এরপর একটি নতুন প্রপার্টি যোগ করার চেষ্টা করো। দেখো, কাজ করে কি না।
@@ -47,6 +41,20 @@ const gadget = {
   color:"Black"
 };
 
-delete gadget.price;
+delete gadget.price; // delete price
+// console.log(gadget);
 
-console.log(gadget);
+
+
+// ৫. একটি animal অবজেক্ট বানাও, যার মধ্যে থাকবে name: "Tiger" এবং location: "Sundarban"। এখন এমন কিছু করো, যাতে location প্রপার্টিটি চেঞ্জ করা না যায়।
+
+
+const animal = {
+  name:"Tiger",
+  location:"Sundarban"
+}
+
+Object.freeze(animal);
+
+
+

@@ -1,8 +1,5 @@
 //JavaScript Object Protection Problems
 
-// ৩. নিচের অবজেক্টটি দাও: const book = { title: "Harry Potter", author: "J.K. Rowling", pages: 500 };
-// Object.seal() ব্যবহার করে অবজেক্টটি সিল করো। তারপর author প্রপার্টিটি চেঞ্জ করে দেখো।
-
 // ৪. একটি gadget অবজেক্ট বানাও, যার মধ্যে থাকবে name: "iPhone", price: 120000, এবং color: "Black"। delete ব্যবহার করে price প্রপার্টিটি ডিলিট করো।
 
 // ৫. একটি animal অবজেক্ট বানাও, যার মধ্যে থাকবে name: "Tiger" এবং location: "Sundarban"। এখন এমন কিছু করো, যাতে location প্রপার্টিটি চেঞ্জ করা না যায়।
@@ -30,4 +27,13 @@ headphone.brand = "Readland"; // Not allow
 const player = { name: "Messi", goals: 800, club: "Inter Miami" };
 Object.freeze(player);
 player.salary = 5000000;
-console.log(player);
+// console.log(player); // Not allowed
+
+// ৩. নিচের অবজেক্টটি দাও: const book = { title: "Harry Potter", author: "J.K. Rowling", pages: 500 };
+// Object.seal() ব্যবহার করে অবজেক্টটি সিল করো। তারপর author প্রপার্টিটি চেঞ্জ করে দেখো।
+
+const book = { title: "Harry Potter", author: "J.K. Rowling", pages: 500 };
+Object.seal(book);
+book.author = "Shakil Ahmed";
+book.price = 100;
+console.log(book);

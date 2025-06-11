@@ -90,6 +90,7 @@ const building = {
 }
 
 for(const val in building){
-  console.log(building[val]);
+  // console.log(building[val]);
 }
+
 

@@ -58,3 +58,10 @@ Object.freeze(animal);
 
 
 
+// ৬. নিচের অবজেক্টটি দাও: const food = { name: "Pizza", price: 500, size: "Large" };
+// এমন কিছু করো, যাতে food অবজেক্টে নতুন কোনো প্রপার্টি যোগ করা না যায়, কিন্তু চাইলে price বাড়ানো বা কমানো যাবে।
+
+const food = { name: "Pizza", price: 500, size: "Large" };
+
+Object.seal(food);
+

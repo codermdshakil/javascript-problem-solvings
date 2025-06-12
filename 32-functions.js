@@ -1,7 +1,5 @@
 
 
-// ৪. taskDone নামে একটি ফাংশন লেখো। এই ফাংশনে তোমার সারাদিনের ৫টি কাজ একেক লাইনে console.log() দিয়ে দেখাও।
-
 // ৫. greetMe নামে একটি ফাংশন লেখো। ফাংশনটি কল করলে আউটপুটে দেখাবে— “Good Morning! Have a great day!”
 
 // ৬. তোমার সবচেয়ে ক্লোজ তিন বন্ধুর নাম দেখানোর জন্য getFavFriends নামে একটি ফাংশন লেখো। এরপর ফাংশনের মধ্যে তোমার তিনজন প্রিয় বন্ধুর নাম আউটপুটে দেখাও।
@@ -41,3 +39,16 @@ function family(){
 }
 
 // family();
+
+
+// ৪. taskDone নামে একটি ফাংশন লেখো। এই ফাংশনে তোমার সারাদিনের ৫টি কাজ একেক লাইনে console.log() দিয়ে দেখাও।
+
+function taskDone(){
+  console.log("Web Development Course");
+  console.log("HSC");
+  console.log("Tuition");
+  console.log("Magnet");
+  console.log("Medam");
+}
+
+taskDone();

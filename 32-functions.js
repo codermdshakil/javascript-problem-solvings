@@ -1,9 +1,5 @@
 
 
-
-
-// ৩. তোমার পরিবারের জন্য একটি ফাংশন লেখো। যেকোনো একটা নাম দাও ফাংশনটির। এরপর এই ফাংশনের মধ্যে তোমার পরিবারের সব সদস্যের নাম এক এক করে আউটপুটে দেখাও।
-
 // ৪. taskDone নামে একটি ফাংশন লেখো। এই ফাংশনে তোমার সারাদিনের ৫টি কাজ একেক লাইনে console.log() দিয়ে দেখাও।
 
 // ৫. greetMe নামে একটি ফাংশন লেখো। ফাংশনটি কল করলে আউটপুটে দেখাবে— “Good Morning! Have a great day!”
@@ -31,5 +27,17 @@ function myRoutine(){
   console.log('2. Check Phone');
   console.log('3. Open laptop');
 }
-myRoutine()
+// myRoutine()
 
+// ৩. তোমার পরিবারের জন্য একটি ফাংশন লেখো। যেকোনো একটা নাম দাও ফাংশনটির। এরপর এই ফাংশনের মধ্যে তোমার পরিবারের সব সদস্যের নাম এক এক করে আউটপুটে দেখাও।
+
+function family(){
+  console.log('Fatema');
+  console.log('Sagor');
+  console.log('Sakia');
+  console.log('Shakil');
+  console.log('Saykot');
+  console.log('Siam');
+}
+
+// family();

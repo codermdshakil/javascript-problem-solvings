@@ -1,6 +1,6 @@
 
 
-// ৫. greetMe নামে একটি ফাংশন লেখো। ফাংশনটি কল করলে আউটপুটে দেখাবে— “Good Morning! Have a great day!”
+
 
 // ৬. তোমার সবচেয়ে ক্লোজ তিন বন্ধুর নাম দেখানোর জন্য getFavFriends নামে একটি ফাংশন লেখো। এরপর ফাংশনের মধ্যে তোমার তিনজন প্রিয় বন্ধুর নাম আউটপুটে দেখাও।
 
@@ -51,4 +51,13 @@ function taskDone(){
   console.log("Medam");
 }
 
-taskDone();
+// taskDone();
+
+
+// ৫. greetMe নামে একটি ফাংশন লেখো। ফাংশনটি কল করলে আউটপুটে দেখাবে— “Good Morning! Have a great day!”
+
+function greetMe(){
+  console.log("Good Morning! Hava a great Day!")
+}
+
+greetMe();

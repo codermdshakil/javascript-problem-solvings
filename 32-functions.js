@@ -1,13 +1,5 @@
 
 
-
-
-
-
-// ৭. introduceMyself নামে একটি ফাংশন লেখো। ফাংশনটি কল করলে তোমার নাম, বয়স, ঠিকানা, ফোন নম্বর, পেশা ও প্রিয় খাবার আউটপুটে দেখাও।
-
-
-
 // Solutions:
 
 // ১. juiceKhao নামে একটি ফাংশন লেখো। এই ফাংশনটি কল করলে আউটপুটে দেখাবে— “এই নাও লেবুর জুস।”
@@ -70,4 +62,19 @@ function getFavFriends(){
   console.log('Shakil');
 }
 
-getFavFriends();
+// getFavFriends();
+
+
+// ৭. introduceMyself নামে একটি ফাংশন লেখো। ফাংশনটি কল করলে তোমার নাম, বয়স, ঠিকানা, ফোন নম্বর, পেশা ও প্রিয় খাবার আউটপুটে দেখাও।
+
+
+function introduceMyself(){
+  console.log('Name: Md. Shakil Ahmed');
+  console.log('Age: 20');
+  console.log('Address: Gazipru, Kapasia');
+  console.log('Phone: 01729107200');
+  console.log('Profession: Software Engineer');
+  console.log('Favourite Food: Bief');
+}
+
+introduceMyself();

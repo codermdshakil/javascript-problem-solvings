@@ -2,7 +2,7 @@
 
 
 
-// ৬. তোমার সবচেয়ে ক্লোজ তিন বন্ধুর নাম দেখানোর জন্য getFavFriends নামে একটি ফাংশন লেখো। এরপর ফাংশনের মধ্যে তোমার তিনজন প্রিয় বন্ধুর নাম আউটপুটে দেখাও।
+
 
 // ৭. introduceMyself নামে একটি ফাংশন লেখো। ফাংশনটি কল করলে তোমার নাম, বয়স, ঠিকানা, ফোন নম্বর, পেশা ও প্রিয় খাবার আউটপুটে দেখাও।
 
@@ -60,4 +60,14 @@ function greetMe(){
   console.log("Good Morning! Hava a great Day!")
 }
 
-greetMe();
+// greetMe();
+
+// ৬. তোমার সবচেয়ে ক্লোজ তিন বন্ধুর নাম দেখানোর জন্য getFavFriends নামে একটি ফাংশন লেখো। এরপর ফাংশনের মধ্যে তোমার তিনজন প্রিয় বন্ধুর নাম আউটপুটে দেখাও।
+
+function getFavFriends(){
+  console.log('Nadim');
+  console.log('Noyon');
+  console.log('Shakil');
+}
+
+getFavFriends();

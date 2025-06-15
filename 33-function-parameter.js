@@ -42,4 +42,5 @@ function threeSum(sub1, sub2, sub3){
   return result;
 }
 
-console.log(threeSum(67, 72, 68));
+// console.log(threeSum(67, 72, 68));
+

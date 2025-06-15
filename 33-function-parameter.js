@@ -1,9 +1,5 @@
 
-// 9. একটা ফাংশন লেখো, যেখানে প্যারামিটার হিসেবে দেবে, প্রতিদিন তুমি কয় ঘণ্টা সময় মোবাইল ইউজ করো। তারপর সেই ফাংশন বের করবে, মাসে তুমি মোট কত ঘণ্টা মোবাইল ইউজ করো (ধরে নাও, এক মাসে ৩০ দিন)।
-
-
-
-// Solution :
+// Solutions :
 
 // 1. পিতা ও পুত্রের বয়সের গুণফল বের করার একটা ফাংশন লেখ।
 
@@ -91,5 +87,16 @@ function getYourOlderAge(dobYear){
   return olderAge;
 }
 
-console.log(getYourOlderAge(2004));
+// console.log(getYourOlderAge(2004));
 
+
+
+// 9. একটা ফাংশন লেখো, যেখানে প্যারামিটার হিসেবে দেবে, প্রতিদিন তুমি কয় ঘণ্টা সময় মোবাইল ইউজ করো। তারপর সেই ফাংশন বের করবে, মাসে তুমি মোট কত ঘণ্টা মোবাইল ইউজ করো (ধরে নাও, এক মাসে ৩০ দিন)।
+
+function oneMonthWastedTime(everyDayScreenTime){
+  const oneMonth = 30;
+  const totalScreenTime = everyDayScreenTime * oneMonth;
+  return totalScreenTime;
+}
+
+console.log(oneMonthWastedTime(2));

@@ -48,3 +48,18 @@ function totalBill(rice, curry, drinks){
 
 // console.log(totalBill(20, 10, 15));
 
+
+
+// 4. এমন একটি ফাংশন লিখুন, যা ইনপুট হিসেবে বয়স গ্রহণ করবে এবং চেক করবে ব্যক্তির বয়স 18 এর বেশি কিনা। যদি বেশি হয়, Eligible for Voting আর না হলে Not Eligible রিটার্ন করবে।
+
+function isEligible(age){
+  if(age >= 18){
+    return "Eligible for Voting!";
+  }
+  else{
+    
+    return " Not Eligible for Voting!";
+  }
+}
+
+console.log(isEligible(19));

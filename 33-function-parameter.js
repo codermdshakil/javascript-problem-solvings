@@ -99,4 +99,4 @@ function oneMonthWastedTime(everyDayScreenTime){
   return totalScreenTime;
 }
 
-console.log(oneMonthWastedTime(2));
+// console.log(oneMonthWastedTime(2)); // 60 
